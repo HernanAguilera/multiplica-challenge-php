@@ -3,7 +3,7 @@
 class PrintNumbers
 {
     public function oneToOneN($n=100){
-        for ($i=1; $i < $n; $i++) {
+        for ($i=1; $i <= $n; $i++) {
             echo $this->calculateOutPut($i) . PHP_EOL;
         }
     }

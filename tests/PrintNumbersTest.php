@@ -12,7 +12,7 @@ class PrintNumbersTest extends TestCase
 
     public function test_it_works()
     {
-        for ($i=1; $i < 100; $i++) { 
+        for ($i=1; $i <= 100; $i++) { 
             $result = $this->pn->calculateOutPut($i);
             if($i % 3 == 0 || $i % 5 == 0){
                 if($i % 3 == 0 && $i % 5 == 0)
